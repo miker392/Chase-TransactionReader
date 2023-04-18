@@ -19,7 +19,9 @@ namespace TextFileParsingExample
                     lines = Array.FindAll(lines, line => !line.Contains(phraseToRemove));
                 }
 
-                lines = lines.Select(line => line.Replace($", {currentYear}", $" {currentYear}")).ToArray();
+                lines = lines.Select(line => line
+                                            .Replace($", {currentYear}", $" {currentYear}")
+                                            .Replace("$", "")).ToArray();
 
                 // Remove empty lines
                 lines = Array.FindAll(lines, line => line.Trim().Length > 0);
