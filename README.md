@@ -34,6 +34,6 @@ Mar 31          $11.58          WENDY'S
 Mar 31          $18.59          RAISING CANES
 Mar 30          $7.00           SONIC DRIVE IN
 Mar 28          $125.86         OLD NAVY US
-Mar 26          $10.38          DAIRY QUEEN #44857
+Mar 26          $10.38          DAIRY QUEEN
 Mar 25          $4.24           TARGET.COM *
 ```
